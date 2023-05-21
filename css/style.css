@@ -1,0 +1,97 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: white;
+    margin-left: 1%;
+}
+
+.navbar {
+    background-color: white;
+    top: 0%;
+    width: 100%;
+    /*position: fixed;*/
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topnav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.topnav ul li a {
+    padding-right: 40px; font-size: 20px;
+}
+
+.h1underline {
+    top: 100%;
+    width: 20%;
+    height: 10px;
+    background: linear-gradient(90deg, red, blue);
+    margin-bottom: 5px;
+}
+
+.game {
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.gametitle {
+    display: flex;
+    align-items: center;
+}
+
+.gametitle h1 {
+    margin-left: 15px;
+}
+
+.gametitle img {
+    border-radius: 20%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.screenshots {
+    display: flex;
+    align-items: center;
+}
+
+.screenshots img {
+    margin-right: 15px;
+}
+
+.teammember {
+    width: 10%;
+    height: 15%;
+    margin-top: 5%;
+    margin-right: 5%;
+    text-align: center;
+    color: white;
+}
+
+.aboutusbackground {
+    display: flex;
+    background: linear-gradient(red, blue);
+}
+
+.teammember img {
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align:center;
+}

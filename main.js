@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
             <img src="cutawayshotgames.png" alt="CSG Logo" width="200" style="display: block; margin: 0 auto;">
             <div class="hero">
                 <h1>Welcome to CutawayShot Games</h1>
-                <p>Games designed to take cutaways from the stress that surrounds us.
+                <p>Games designed to take cutaways from the stress that surrounds us.</p>
 
-CutawayShot Games focuses on delivering engaging and immersive gaming experiences across various platforms, mainly for mobile devices and PC.
+ <p>CutawayShot Games focuses on delivering engaging and immersive gaming experiences across various platforms, mainly for mobile devices and PC.
 We prioritise fun and intriguing experiences and unique genres to stand out in the gaming market.
 Consisting of a team of skilled and motivated video game / software developers, we work collaboratively to bring our creative vision to life. We also act as video game publishers.</p>
             </div>
@@ -26,7 +26,7 @@ Consisting of a team of skilled and motivated video game / software developers, 
                     <div class="card-content">
                         <h3>Countryballs: Tower Defense</h3>
                         <p>Countryballs: Tower Defense is a fresh addition to the Countryball franchise, which features different countryballs with different abilities to fight rockets and save the world!</p>
-                        <p><strong>Platforms:</strong> Android, PC(Coming Soon)</p>
+                        <p><strong>Platforms: </strong> Android, PC(Coming Soon)</p>
                         <a href="https://play.google.com/store/apps/details?id=com.PruzVesco.CountryballsTowerDefense" class="btn" style="margin-top: 1rem;">Play Now</a>
                     </div>
                 </div>
@@ -36,7 +36,7 @@ Consisting of a team of skilled and motivated video game / software developers, 
                     <div class="card-content">
                         <h3>Countryballs: Minigames</h3>
                         <p>This game is pure challenge! In many different minigames, beat your own highscore to climb the ranks. You will find yourself in a leaderboard where you can compare your best scores with others.</p>
-                        <p><strong>Platforms:</strong> Android</p>
+                        <p><strong>Platforms: </strong> Android</p>
                         <a href="https://play.google.com/store/apps/details?id=com.CutawayShotGames.CountryballsMinigames" class="btn" style="margin-top: 1rem;">Play Now</a>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ Consisting of a team of skilled and motivated video game / software developers, 
                     <div class="card-content">
                         <h3>Countryballs: Zombie Hunt</h3>
                         <p>A world-wide zombie epidemic broke out. Quick, defeat the waves of zombies to save the world!</p>
-                        <p><strong>Platforms:</strong> Android</p>
+                        <p><strong>Platforms: </strong> Android</p>
                         <a href="https://play.google.com/store/apps/details?id=com.CutawayShotGames.CountryballsZombieHunt" class="btn" style="margin-top: 1rem;">Play Now</a>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ Consisting of a team of skilled and motivated video game / software developers, 
                         <h3>The Hardest Countryballs Game</h3>
                         <p>Jump right into the worlds most difficult countryballs game, a game featuring several very hard levels all around the world with collectable artefacts.
 Beat your own times and become the very best.</p>
-                        <p><strong>Platforms:</strong>Mobile</p>
+                        <p><strong>Platforms: </strong>Mobile</p>
                         <a href="https://play.google.com/store/apps/details?id=com.CutawayShotGames.TheHardestCountryballsGame" class="btn" style="margin-top: 1rem;">Play Now</a>
                     </div>
                 </div>
@@ -65,9 +65,9 @@ Beat your own times and become the very best.</p>
                 <div class="card">
                     <img src="alh.png" alt="Ace's Learning Hub" class="card-img">
                     <div class="card-content">
-                        <h3>Ace's Learning Hub'</h3>
+                        <h3>Ace's Learning Hub</h3>
                         <p>Prepare for your upcoming school exams with confidence using Ace, your ultimate study companion! Whether you're struggling to find the right study methods or aiming to ace your tests, Ace has got you covered.</p>
-                        <p><strong>Platforms:</strong>Mobile</p>
+                        <p><strong>Platforms: </strong>Mobile</p>
                         <a href="https://play.google.com/store/apps/details?id=com.cutawayshotgames.Aceslearninghub" class="btn" style="margin-top: 1rem;">Play Now</a>
                     </div>
                 </div>
@@ -77,7 +77,7 @@ Beat your own times and become the very best.</p>
                     <div class="card-content">
                         <h3>20th Century Quiz</h3>
                         <p>The twentieth century (1900-1999) was full of important breakthroughs as well as huge catastrophes. Improve your trivia about this century with this app by answering diverse multiple choice questions and beat your own highscore!</p>
-                        <p><strong>Platforms:</strong>Mobile</p>
+                        <p><strong>Platforms: </strong>Mobile</p>
                         <a href="https://play.google.com/store/apps/details?id=com.OblivityStudios.TwentiethCenturyQuiz" class="btn" style="margin-top: 1rem;">Play Now</a>
                     </div>
                 </div>
@@ -127,7 +127,7 @@ Beat your own times and become the very best.</p>
         `,
         
         software: `
-            <h1 style="text-align: center; margin-bottom: 2rem;">Our Softwares</h1>
+            <h1 style="text-align: center; margin-bottom: 2rem;">Our Software</h1>
             <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem;">Beyond games, we develop cutting-edge software tools for game creators and interactive media professionals.</p>
             
             <div class="grid">

@@ -132,7 +132,7 @@ Beat your own times and become the very best.</p>
             
             <div class="grid">
                 <div class="card">
-                    <img src="" alt="Fire2D" class="card-img">
+                    <img src="fire2d.png" alt="Fire2D" class="card-img">
                     <div class="card-content">
                         <h3>Fire2D Framework</h3>
                         <p>A game framework with API inspired by fantasy consoles</p>
@@ -141,7 +141,7 @@ Beat your own times and become the very best.</p>
                 </div>
                 
                 <div class="card">
-                    <img src="" alt="NESkit" class="card-img">
+                    <img src="neskit.png" alt="NESkit" class="card-img">
                     <div class="card-content">
                         <h3>NESkit</h3>
                         <p>An easy to use development kit for Nintendo Entertainment System</p>
@@ -150,7 +150,7 @@ Beat your own times and become the very best.</p>
                 </div>
                 
                 <div class="card">
-                    <img src="" alt="8-BitStudio" class="card-img">
+                    <img src="8bit.png" alt="8-BitStudio" class="card-img">
                     <div class="card-content">
                         <h3>8-Bit Studio</h3>
                         <p>A very simple music creation tool, compatible with NESkit</p>
@@ -159,7 +159,7 @@ Beat your own times and become the very best.</p>
                 </div>
                 
                 <div class="card">
-                    <img src="" alt="SuperShield" class="card-img">
+                    <img src="supershield.png" alt="SuperShield" class="card-img">
                     <div class="card-content">
                         <h3>SuperShield</h3>
                         <p>An affordable but strong DRM solution for indie devs</p>

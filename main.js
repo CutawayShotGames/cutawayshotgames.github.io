@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', function() {
         home: `
             <img src="cutawayshotgames.png" alt="CSG Logo" width="200" style="display: block; margin: 0 auto;">
             <div class="hero">
-                <h1>Welcome to CutawayShot Games</h1>
+                <h1>Welcome to Cutaway Games</h1>
                 <p>Games designed to take cutaways from the stress that surrounds us.</p>
 
- <p>CutawayShot Games focuses on delivering engaging and immersive gaming experiences across various platforms, mainly for mobile devices and PC.
+ <p>Cutaway Games focuses on delivering engaging and immersive gaming experiences across various platforms, mainly for mobile devices and PC.
 We prioritise fun and intriguing experiences and unique genres to stand out in the gaming market.
 Consisting of a team of skilled and motivated video game / software developers, we work collaboratively to bring our creative vision to life. We also act as video game publishers.</p>
             </div>

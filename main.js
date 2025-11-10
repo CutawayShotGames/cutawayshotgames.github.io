@@ -176,6 +176,12 @@ Beat your own times and become the very best.</p>
             <div class="grid" style="grid-template-columns: 1fr 1fr;">
                 <div class="card">
                     <div class="card-content">
+                         <h3>Legal Notice</h3>
+                        <p><i class="fas fa-envelope" style="color: var(--primary); margin-right: 10px;"></i>Name: Niels Kochert</p>
+                        <p><i class="fas fa-phone" style="color: var(--primary); margin-right: 10px;"></i>Address: Thomas-Mann-Strasse 17, 68799 Reilingen</a></p>
+                        <p><i class="fas fa-envelope" style="color: var(--primary); margin-right: 10px;"></i>E-Mail: kochertn@gmail.com</p>
+                        <p><i class="fas fa-phone" style="color: var(--primary); margin-right: 10px;"></i>Phone number: +49 170 7449060</a></p>
+
                         <h3>Get In Touch</h3>
                         <p><i class="fas fa-envelope" style="color: var(--primary); margin-right: 10px;"></i>pruzvescocbtd@gmail.com</p>
                         <p><i class="fas fa-phone" style="color: var(--primary); margin-right: 10px;"></i>Discord <a href="https://discord.gg/kaK6BXpdfV">Link</a></p>

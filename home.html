@@ -4,227 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cutaway Games</title>
-    <style>
-        :root {
-            --primary: #0000ff;
-            --secondary: #000099;
-            --accent: #ff0000;
-            --text: #333333;
-            --light: #fff8f0;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-        
-        body {
-            background-color: var(--light);
-            color: var(--text);
-            line-height: 1.6;
-        }
-        
-        header {
-            background: linear-gradient(135deg, var(--primary), var(--secondary));
-            color: white;
-            padding: 1rem 0;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        .logo {
-            font-size: 2rem;
-            font-weight: bold;
-            display: flex;
-            align-items: center;
-        }
-        
-        .logo span {
-            color: var(--accent);
-        }
-        
-        nav {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-        }
-        
-        nav ul {
-            display: flex;
-            list-style: none;
-        }
-        
-        nav ul li {
-            margin-left: 1.5rem;
-        }
-        
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: 500;
-            padding: 0.5rem 0.8rem;
-            border-radius: 4px;
-            transition: all 0.3s ease;
-        }
-        
-        nav a:hover, nav a.active {
-            background-color: rgba(255, 255, 255, 0.2);
-        }
-        
-        main {
-            min-height: calc(100vh - 180px);
-            padding: 2rem 0;
-        }
-        
-        .hero {
-            text-align: center;
-            padding: 3rem 0;
-        }
-        
-        .hero h1 {
-            font-size: 3rem;
-            margin-bottom: 1rem;
-            color: var(--secondary);
-        }
-        
-        .hero p {
-            font-size: 1.2rem;
-            max-width: 800px;
-            margin: 0 auto 2rem;
-        }
-        
-        .btn {
-            display: inline-block;
-            background: var(--primary);
-            color: white;
-            padding: 0.8rem 1.5rem;
-            border-radius: 4px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: all 0.3s ease;
-        }
-        
-        .btn:hover {
-            background: var(--secondary);
-            transform: translateY(-2px);
-        }
-        
-        .card {
-            background: white;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-            margin-bottom: 2rem;
-        }
-        
-        .card:hover {
-            transform: translateY(-5px);
-        }
-        
-        .card-img {
-            width: 100%;
-            height: 200px;
-            object-fit: cover;
-        }
-        
-        .card-content {
-            padding: 1.5rem;
-        }
-        
-        .card h3 {
-            color: var(--primary);
-            margin-bottom: 0.5rem;
-        }
-        
-        .grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-        
-        .team-member {
-            text-align: center;
-        }
-        
-        .team-member img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 4px solid var(--primary);
-        }
-        
-        .contact-form {
-            max-width: 600px;
-            margin: 0 auto;
-        }
-        
-        .form-group {
-            margin-bottom: 1.5rem;
-        }
-        
-        .form-group label {
-            display: block;
-            margin-bottom: 0.5rem;
-            font-weight: 500;
-        }
-        
-        .form-control {
-            width: 100%;
-            padding: 0.8rem;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-            font-size: 1rem;
-        }
-        
-        textarea.form-control {
-            min-height: 150px;
-            resize: vertical;
-        }
-        
-        footer {
-            background: linear-gradient(135deg, var(--secondary), var(--primary));
-            color: white;
-            text-align: center;
-            padding: 2rem 0;
-            margin-top: 2rem;
-        }
-        
-        .social-links {
-            display: flex;
-            justify-content: center;
-            margin: 1rem 0;
-        }
-        
-        .social-links a {
-            color: white;
-            margin: 0 10px;
-            font-size: 1.5rem;
-        }
-        
-        @media (max-width: 768px) {
-            nav {
-                flex-direction: column;
-            }
-            
-            nav ul {
-                margin-top: 1rem;
-            }
-            
-            .hero h1 {
-                font-size: 2.5rem;
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
     <header>
@@ -244,8 +24,16 @@
 
     <main>
         <div class="container" id="content">
-            <!-- Content will be loaded here -->
-        </div>
+            <img src="cutawayshotgames.png" alt="CSG Logo" width="200" style="display: block; margin: 0 auto;">
+            <div class="hero">
+                <h1>Welcome to Cutaway Games</h1>
+                <p>Games designed to take cutaways from the stress that surrounds us.</p>
+
+                <p>Cutaway Games focuses on delivering engaging and immersive gaming experiences across various platforms, mainly for mobile devices and PC.
+                We prioritise fun and intriguing experiences and unique genres to stand out in the gaming market.
+                Consisting of a team of skilled and motivated video game / software developers, we work collaboratively to bring our creative vision to life. We also act as video game publishers.</p>
+            </div>
+            </div>
     </main>
 
     <footer>
@@ -256,13 +44,11 @@
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-github"></i></a>
             </div>
-            <p>2025 CutawayShot Games</p>
+            <p>2025 Cutaway Games</p>
         </div>
     </footer>
 
-    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-    <script src="main.js">
-        // JavaScript will go here
-    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="script.js"></script>
 </body>
 </html>

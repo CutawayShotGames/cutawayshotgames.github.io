@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function TeamPage() {
   const team = [
     {
@@ -36,30 +38,30 @@ function TeamPage() {
             Cutaway<span className="text-red-600">Games</span>
           </div>
           <nav className="flex gap-8">
-            <a href="/" className="hover:text-gray-200 transition-colors">
+            <Link to="/" className="hover:text-gray-200 transition-colors">
               Home
-            </a>
-            <a href="/games" className="hover:text-gray-200 transition-colors">
+            </Link>
+            <Link to="/games" className="hover:text-gray-200 transition-colors">
               Our Games
-            </a>
-            <a
-              href="/software"
+            </Link>
+            <Link
+              to="/software"
               className="hover:text-gray-200 transition-colors"
             >
               Our Software
-            </a>
-            <a
-              href="/team"
+            </Link>
+            <Link
+              to="/team"
               className="hover:text-gray-200 transition-colors font-semibold"
             >
               Our Team
-            </a>
-            <a
-              href="/contact"
+            </Link>
+            <Link
+              to="/contact"
               className="hover:text-gray-200 transition-colors"
             >
               Contact
-            </a>
+            </Link>
           </nav>
         </div>
       </header>
